@@ -1,0 +1,21 @@
+[
+  {
+    "name": "ErrorTimestamp",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ErrorMessage",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Data",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CorrelationId",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }]

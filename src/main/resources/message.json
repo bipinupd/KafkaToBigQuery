@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Id",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CardTypeCode",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CardTypeFullName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "IssuingBank",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+  "name": "CardNumber",
+  "type": "STRING",
+  "mode": "NULLABLE"
+  },
+  {
+    "name": "CardHolderName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "IssueDate",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ExpiryDate",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "BillingDate",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CardPIN",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CreditLimit",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Age",
+    "type": "Integer",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "SSN",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "JobTitle",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "AdditionalDetails",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
