@@ -31,7 +31,7 @@ export PROJECT_ID=<<GCP Project Id>
 gsutil mkdir dev_${PROJECT_ID}_staging_0920
 gsutil mkdir dev_${PROJECT_ID}_transaction_archive_0999
 ```
-Buckets are global resources If the name is already taken, change the prefix.
+Buckets are global resources If the name is already taken, change the suffix (a randomly generated 4 digit number).
 
 #### 5. Create Service Account (e.g., etl-sa)
 
