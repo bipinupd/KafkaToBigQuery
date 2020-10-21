@@ -49,7 +49,7 @@ Download it, we will use this data to test the program.
 #### 8. Run the program
   
 ```
-export $BOOTSTRAP_SERVERS=localhost:9092
+export BOOTSTRAP_SERVERS=localhost:9092
 
 java -cp target/kafka2bq-0.1.jar com.bu.Kafka2BQ --tableName=credit_card  --dataset=transaction \
     --runner=DataflowRunner --tempLocation=gs://dev_${PROJECT_ID}_staging_0920/temp/ \
